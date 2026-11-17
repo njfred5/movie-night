@@ -3,7 +3,7 @@ import { MovieList } from "@/components/movie-list";
 import { getMovies } from "@/lib/movies";
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
-  title: "Movies | Movie Night",
+  title: "Movies",
   description: "The movies you can vote for",
 };
 
