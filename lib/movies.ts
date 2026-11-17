@@ -8,6 +8,7 @@ export type Movie = {
   minutes: number;
 };
 
+// Simulates a slow database query (1 second)
 export async function getMovies(): Promise<Movie[]> {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return movies;
